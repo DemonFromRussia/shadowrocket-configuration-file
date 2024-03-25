@@ -27,6 +27,5 @@ jobs:
           curl -s https://antifilter.network/download/ip6.lst | sed -e 's/^/IP-CIDR6,/' >> ip6.list
           git config --global user.name 'DemonFromRussia'
           git config --global user.email 'demonfromrussia@users.noreply.github.com'
-          git add *
-          git commit --amend -m "Update list $(date '+%Y-%m-%d %H:%M:%S')"
-          git push --force
+          git commit -am "Update list $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
