@@ -6,7 +6,7 @@ name: Update list
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '0 * * * *'
+    - cron:  '0 */12 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -28,8 +28,14 @@ jobs:
       - name: Update list
         run: |
           curl -s https://antifilter.download/list/allyouneed.lst | sed -e 's/^/IP-CIDR,/' > allyouneed.list
+          if [[ -z $(git status -s) ]]
+          then
+            echo "No new updates. Exit"
+            exit
+          fi
           git config --global user.name 'DemonFromRussia'
           git config --global user.email 'demonfromrussia@users.noreply.github.com'
           git add *
           git commit -am "Update list $(date '+%Y-%m-%d %H:%M:%S')"
           git push
+          echo "Successfully updated list"
