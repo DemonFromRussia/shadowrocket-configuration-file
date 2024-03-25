@@ -10,6 +10,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -20,12 +23,13 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      #          curl -s https://antifilter.network/download/ip6.lst | sed -e 's/^/IP-CIDR6,/' > ip6.list
       - uses: actions/checkout@v3
       - name: Update list
         run: |
-          curl -s https://antifilter.network/download/ipsmart.lst | sed -e 's/^/IP-CIDR,/' > ipsmart.list
-          curl -s https://antifilter.network/download/ip6.lst | sed -e 's/^/IP-CIDR6,/' >> ip6.list
+          curl -s https://antifilter.download/list/allyouneed.lst | sed -e 's/^/IP-CIDR,/' > allyouneed.list
           git config --global user.name 'DemonFromRussia'
           git config --global user.email 'demonfromrussia@users.noreply.github.com'
+          git add *
           git commit -am "Update list $(date '+%Y-%m-%d %H:%M:%S')"
           git push
