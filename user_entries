@@ -1,9 +1,9 @@
 # xbox
-xsts.auth.xboxlive.com
-k1-api.wbagora.com
-prod-network-api.wbagora.com
-account.wbgames.com
-metallica-api.wbagora.com
+# xsts.auth.xboxlive.com
+# k1-api.wbagora.com
+# prod-network-api.wbagora.com
+# account.wbgames.com
+# metallica-api.wbagora.com
 # games
 epicgames.com
 # chatgpt
@@ -46,5 +46,3 @@ play.google.com
 x.com
 instagram.com
 linkedin.com
-# for check
-2ip.ru
