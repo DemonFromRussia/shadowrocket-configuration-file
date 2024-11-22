@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,cdn.oaistatic.com
 DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,api.github.com
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,nike.com
