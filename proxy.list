@@ -49,7 +49,8 @@ DOMAIN-SUFFIX,discordpartygames.com
 DOMAIN-SUFFIX,discordsays.com
 DOMAIN-SUFFIX,discordsez.com
 DOMAIN-SUFFIX,discordstatus.com
-DOMAIN-SUFFIX,cub.redDOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,cub.red\n
+DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,yt.be
