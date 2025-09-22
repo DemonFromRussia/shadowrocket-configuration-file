@@ -32,7 +32,7 @@ jobs:
         run: |
           curl -s https://antifilter.download/list/allyouneed.lst | sed -e 's/^/IP-CIDR,/' > allyouneed.list
           sed '/^#/d;/^$/d; s/^/DOMAIN-SUFFIX,/' user_entries > proxy.list
-          echo '\\n' >> proxy.list
+          echo "\n" >> proxy.list
           sed '/^#/d;/^$/d; s/^/DOMAIN-SUFFIX,/' user_entries_mobile >> proxy.list
 
           if [[ -z $(git status -s) ]]
