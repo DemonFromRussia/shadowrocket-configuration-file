@@ -1,18 +1,89 @@
-# xbox
-# xsts.auth.xboxlive.com
-# k1-api.wbagora.com
-# prod-network-api.wbagora.com
-# account.wbgames.com
-# metallica-api.wbagora.com
+# Microsoft Copilot, Microsoft Rewards, Xbox, Xbox Cloud Gaming:
+copilot.microsoft.com
+sydney.bing.com
+edgeservices.bing.com
+rewards.bing.com
+xsts.auth.xboxlive.com
+xgpuwebf2p.gssv-play-prod.xboxlive.com
+xgpuweb.gssv-play-prod.xboxlive.com
+k1-api.wbagora.com
+prod-network-api.wbagora.com
+account.wbgames.com
+metallica-api.wbagora.com
 # games
 epicgames.com
 # chatgpt
-openai.com
 chatgpt.com
+ab.chatgpt.com
+auth.openai.com
+auth0.openai.com
+platform.openai.com
 cdn.oaistatic.com
-# copilot
+files.oaiusercontent.com
+cdn.auth0.com
+tcr9i.chat.openai.com
+webrtc.chatgpt.com
+android.chat.openai.com
+api.openai.com
+operator.chatgpt.com
+sora.chatgpt.com
+sora.com
+videos.openai.com
+# Сервисы Google:
+gemini.google.com
+aistudio.google.com
+generativelanguage.googleapis.com
+aitestkitchen.withgoogle.com
+aisandbox-pa.googleapis.com
+webchannel-alkalimakersuite-pa.clients6.google.com
+alkalimakersuite-pa.clients6.google.com
+assistant-s3-pa.googleapis.com
+proactivebackend-pa.googleapis.com
+o.pki.goog
+labs.google
+notebooklm.google
+notebooklm.google.com
+jules.google.com
+stitch.withgoogle.com
+# GitHub Copilot:
+api.github.com
+api.individual.githubcopilot.com
+proxy.individual.githubcopilot.com
 githubcopilot.com
 api.github.com
+# JetBrains:
+datalore.jetbrains.com
+plugins.jetbrains.com
+download.jetbrains.com
+# Grok
+grok.com
+accounts.x.ai
+assets.grok.com
+# Claude
+claude.ai
+console.anthropic.com
+auth.anthropic.com
+api.anthropic.com
+# Другое:
+www.notion.so
+www.canva.com
+www.intel.com
+www.dell.com
+www.tiktok.com
+web.archive.org
+developer.nvidia.com
+builds.parsec.app
+tria.ge
+api.imgur.com
+www.dyson.com
+www.dyson.fr
+usher.ttvnw.net
+api.manus.im
+profile.broadcom.com
+test.dns.malw.link
+eu.posthog.com
+www.qwant.com
+guidedhacking.com
 # music
 spotify.com
 soundcloud.com
@@ -27,29 +98,35 @@ airbnb.com
 intel.com
 ups.com
 newbalance.com
-# youtube
-#youtube.com
-#youtu.be
-#googlevideo.com
-#yt.be
-#ytimg.com
-#ggpht.com
-#ytimg.l.google.com
-#googleusercontent.com
-#googleapis.com
-#gstatic.com
-#nhacmp3youtube.com
-#youtubekids.com
-#suggestqueries.google.com
-#wide-youtube.l.google.com
-#youtube-ui.l.google.com
-#googleapis.l.google.com
-#youtubemobilesupport.com
-#play.google.com
 # social
 x.com
-instagram.com
 linkedin.com
+instagram.com
+www.instagram.com
+b.i.instagram.com
+z-p42-chat-e2ee-ig.facebook.com
+help.instagram.com
+# DeepL
+deepl.com
+www.deepl.com
+www2.deepl.com
+login-wall.deepl.com
+w.deepl.com
+s.deepl.com
+dict.deepl.com
+ita-free.www.deepl.com
+write-free.www.deepl.com
+experimentation.deepl.com
+experimentation-grpc.deepl.com
+ita-free.app.deepl.com
+shield.deepl.com
+ott.deepl.com
+api-free.deepl.com
+backend.deepl.com
+clearance.deepl.com
+errortracking.deepl.com
+auth.deepl.com
+oneshot-free.www.deepl.com
 # discord
 cdn.discordapp.com
 canary.discord.com
